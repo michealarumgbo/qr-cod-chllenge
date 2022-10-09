@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @import url(https://fonts.google.com/specimen/Outfit);
+      * {
+        box-sizing: border-box;
+        font-family: "Outfit", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      body {
+        background: linear-gradient(hsl(217, 35%, 75%), hsl(213, 37%, 89%));
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .qr-code-component {
+        width: 270px;
+        background: hsl(0, 0%, 100%);
+        padding: 15px;
+        height: 420px;
+        border-radius: 15px;
+        color: hsl(218, 44%, 22%);
+        font-weight: 700;
+        text-align: center;
+        font-size: 18px;
+      }
+      .qr-code-component img {
+        border-radius: 15px;
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      p {
+        margin-top: 7px;
+        font-weight: 400;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="qr-code-component">
+      <img src="./images/image-qr-code.png" alt="" />
+      Improve your front-end skills by building projects
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Arumgb Michael</a>.
+    </div>
+  </body>
+</html>
